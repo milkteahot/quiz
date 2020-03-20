@@ -93,7 +93,7 @@
         var ans = ['a','a','a','a','a','a','a'];
         var num=1;
         function toggle(e){
-            e.preventDefault();
+            
             for(var i=0;i<8;i++) {
                 if($("#layer"+`${num}`).css("display") == "block"){
                 $("#layer"+`${num}`).hide();
@@ -111,7 +111,6 @@
         }
         var cnt=0;
         function total(){
-            e.preventDefault();
             for(var i=0;i<7;i++){
                 if(list[i]==ans[i]){
                     cnt++;
