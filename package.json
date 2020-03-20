@@ -1,0 +1,6 @@
+{
+    "name":"Quiz",
+    "scripts": {
+        "start" : "index.html"
+    }
+}
