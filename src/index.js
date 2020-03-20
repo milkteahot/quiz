@@ -1,10 +1,12 @@
 var list=[];
         var ans = ['a','a','a','a','a','a','a'];
         var num=1;
+        var bust = 0;
         window.onbeforeunload = function(e) {
-            var dialogText = 'dialog';
-            e.returnValue = dialogText;
-            return dialogText;
+            if(bust === 0) {
+                bust++;
+                return 'Stay';
+            }
         }
         function toggle(e){
             var event = e;
