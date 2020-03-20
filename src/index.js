@@ -2,11 +2,15 @@ var list=[];
         var ans = ['a','a','a','a','a','a','a'];
         var num=1;
         var bust = 0;
-        window.onbeforeunload = function(e) {
-            if(bust === 0) {
-                bust++;
-                return 'Stay';
-            }
+        // window.onbeforeunload = function(e) {
+        //     if(bust === 0) {
+        //         bust++;
+        //         return 'Stay';
+        //     }
+            
+        // }
+        window.onunload = function(){
+            return false;
         }
         function toggle(e){
             var event = e;
