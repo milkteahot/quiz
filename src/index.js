@@ -1,7 +1,13 @@
 var list=[];
         var ans = ['a','a','a','a','a','a','a'];
         var num=1;
+        window.onbeforeunload = function(e) {
+            var dialogText = 'dialog';
+            e.returnValue = dialogText;
+            return dialogText;
+        }
         function toggle(e){
+            var event = e;
             for(var i=0;i<8;i++) {
                 if($("#layer"+`${num}`).css("display") == "block"){
                 $("#layer"+`${num}`).hide();
@@ -9,9 +15,8 @@ var list=[];
                  break;
                 }
             }
-            var event = e;
-            list.push(e);
-            console.log(e);
+            list.push(event);
+            console.log(event);
             console.log(list);
             if(list.length >= 7){
             total(list);
