@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 밝은고딕;
+}
+h1 {
+    margin: 0;
+    padding: 25px 0 15px;
+    text-align: center;
+}
+
+.card {
+    display: block;
+    background-color: antiquewhite;
+    padding: 0 20px;
+}
+
+img {
+    width: 85vw;
+}
+ul {
+    margin: 0 0 20px 0;
+}
+
+button {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 3px 10px;
+    border-radius: 11px;
+    border: 0;
+}
+    button:hover {
+        background-color: orange;
+        opacity: 0.9;
+    }
+
+label{
+    font-size: 1.7rem;
+    line-height: 1.8;
+    padding: 5px;
+}
+
+/* .result {
+    display: none;
+    background-color: antiquewhite;
+    padding: 0 20px;
+    height: 120vw;
+    text-align: center;
+    padding: 1rem;
+    
+} */
+
+.final {
+    padding: 14px;
+    margin: 0 auto;
+}
+
+#result1 {
+    padding: 0 1rem;
+}
