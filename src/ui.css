@@ -8,6 +8,7 @@ h1 {
     margin: 0;
     padding: 25px 0 15px;
     text-align: center;
+    display: none;
 }
 
 .card {
@@ -19,7 +20,7 @@ h1 {
 
 img {
     width: 80vw;
-    height: 70vw;
+    height: 60vw;
     padding: 10px;
 }
 ul {
