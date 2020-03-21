@@ -12,26 +12,35 @@ h1 {
 
 .card {
     display: block;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     padding: 0 20px;
+    height: 100%;
 }
 
 img {
-    width: 85vw;
+    width: 80vw;
+    height: 70vw;
+    padding: 10px;
 }
 ul {
     margin: 0 0 20px 0;
 }
+ul button {
+    width: 70vw;
+    
+}
 
 button {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.8;
     border-radius: 5px;
     margin: 5px 0;
     padding: 3px 10px;
     border-radius: 11px;
-    border: 0;
-    background-color: white;
+    /* border: 1px solid lightgray; */
+    background-color: #0000ff8c;
+    color: white;
+    font-weight: 400;
 }
     button:hover {
         background-color: orange;
@@ -39,7 +48,7 @@ button {
     }
 
 label{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     line-height: 1.8;
     padding: 5px;
 }

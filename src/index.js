@@ -33,8 +33,8 @@ var list=[];
                         $("#result1").show();
                         }
                     }
-            }
-                    $(".result").text("당신의 결과는 ");
                 }
+                    //$(".result").text("당신의 결과는 ");
+            }
         }
         
